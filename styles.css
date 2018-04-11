@@ -45,7 +45,7 @@ Portfolio Temp
     margin-top: 65px;
     margin-left: 100px;
     margin-right: 100px; 
-    animation: fadein 1.5s;
+
   }
 
 
@@ -78,7 +78,9 @@ body {
     left: 50%;
     transform: translate3d(-50%,-50%, 0);
     position: absolute;
+    animation: fadein 1.5s;
   }
+  
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -134,7 +136,6 @@ button {
     transition-duration: 300ms;
     outline: none;
     animation: fadein 1.5s;
-    animation-delay: 2s;
   }
 
   button:hover {
