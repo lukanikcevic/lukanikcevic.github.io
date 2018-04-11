@@ -83,7 +83,7 @@ body {
 
 .main {
     /* min-width: 300px; */
-    top:40vh;
+    top:45vh;
     left: 50%;
     transform: translate3d(-50%,-50%, 0);
     position: absolute;
