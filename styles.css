@@ -145,6 +145,7 @@ button {
     transition-duration: 300ms;
     outline: none;
     animation: fadein 1.5s;
+    user-select: none;
   }
 
   button:hover {
