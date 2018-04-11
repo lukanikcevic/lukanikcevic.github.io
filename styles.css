@@ -61,6 +61,7 @@ Portfolio Temp
 body {
     height:100vh;
     background-color: #004BF3;
+    margin: 0;
 }
 
   .main {
