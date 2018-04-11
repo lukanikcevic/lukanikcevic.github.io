@@ -39,23 +39,29 @@ Portfolio Temp
   h1 {
     /* font-family: 'pxgroteskbold'; */
     font-family: 'CircularStd-Bold';
-    font-size: 6vmax;
-    line-height: 54px;
+    font-size: 72px;
     color: #ffffff;
     text-align: center;
-    margin-bottom:104px;
+    margin-bottom:72px;
     margin-top: 65px;
     margin-left: 100px;
-    margin-right: 100px;
-    
+    margin-right: 100px; 
+    animation: fadein 1.5s;
   }
 
-/* 
-  @media screen and (max-width: 768px) {
-    .h1 {
-        font-size: 16px;
 
-    } */
+@media (min-width: 400px) {
+    h1 {
+        font-size: 58px;
+    }
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 72px;
+    }
+}
+
 
 
 body {
@@ -64,7 +70,7 @@ body {
     margin: 0;
 }
 
-  .main {
+.main {
     min-width: 300px;
     top:50vh;
     left: 50%;
@@ -73,7 +79,7 @@ body {
     animation: fadein 1.5s;
   }
 
-  @keyframes fadein {
+@keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
@@ -111,7 +117,7 @@ body {
 button {
     background-color:rgb(255, 255, 255);
     cursor: pointer;
-    margin-top: 55px;
+    /* margin-top: 55px; */
     border: none;
     color: #004BF3;
     min-height: 50px;
@@ -127,6 +133,8 @@ button {
     transition-duration: 300ms;
     outline: none;
   }
+
+
 
   button:hover {
     background-color: rgb(255, 255, 255);
