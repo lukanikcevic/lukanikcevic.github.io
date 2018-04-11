@@ -26,13 +26,13 @@ Portfolio Temp
 
 @font-face {
     font-family: 'CircularStd-Bold';
-    src: url(fonts/Circular/circularstd-bold.ttf)  format('truetype');
+    src: url(fonts/Circular/CircularStd-Bold.ttf)  format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'CircularStd-Book';
-    src: url(fonts/Circular/circularstd-book.ttf)  format('truetype');
+    src: url(fonts/Circular/CircularStd-Book.ttf)  format('truetype');
     font-weight: lighter;
 }
 
