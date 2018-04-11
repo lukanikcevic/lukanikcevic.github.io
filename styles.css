@@ -37,7 +37,6 @@ Portfolio Temp
 }
 
   h1 {
-    /* font-family: 'pxgroteskbold'; */
     font-family: 'CircularStd-Bold';
     font-size: 72px;
     color: #ffffff;
@@ -68,6 +67,7 @@ Portfolio Temp
 
 body {
     height:100vh;
+    width: 100vh;
     background-color: #004BF3;
     margin: 0;
 }
@@ -78,7 +78,6 @@ body {
     left: 50%;
     transform: translate3d(-50%,-50%, 0);
     position: absolute;
-    animation: fadein 1.5s;
   }
 
 @keyframes fadein {
@@ -134,9 +133,9 @@ button {
     position: relative;
     transition-duration: 300ms;
     outline: none;
+    animation: fadein 1.5s;
+    animation-delay: 2s;
   }
-
-
 
   button:hover {
     background-color: rgb(255, 255, 255);
