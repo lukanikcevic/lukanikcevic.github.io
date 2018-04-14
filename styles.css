@@ -14,13 +14,13 @@ Portfolio Temp
 
 @font-face {
     font-family: 'pxgroteskbold'; 
-    src: url(fonts/pxgrotesk/pxgroteskbold.ttf)  format('truetype');
+    src: url(Fonts/pxgrotesk/pxgroteskbold.ttf)  format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'pxgrotesklight';
-    src: url(fonts/pxgrotesk/pxgrotesklight.ttf)  format('truetype');
+    src: url(Fonts/pxgrotesk/pxgrotesklight.ttf)  format('truetype');
     font-weight: normal;
 }
 
@@ -73,13 +73,6 @@ body {
     overflow-x: hidden;
 }
 
-@media (min-width: 600px) {
-    body {
-        /* padding: 20px;
-        padding: 20px; */
-    }
-}
-
 
 .main {
     /* min-width: 300px; */
@@ -90,7 +83,7 @@ body {
     animation: fadein 1.5s;
   }
 
-}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -129,10 +122,8 @@ body {
 button {
     background-color:rgb(255, 255, 255);
     cursor: pointer;
-    /* margin-top: 55px; */
     border: none;
     color: #004BF3;
-    min-height: 50px;
     padding: 13px 24px;
     text-align: center;
     font-family: 'CircularStd-Book';
@@ -140,7 +131,7 @@ button {
     border-radius: 2px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;x
     position: relative;
     transition-duration: 300ms;
     outline: none;
