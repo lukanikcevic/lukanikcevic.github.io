@@ -75,8 +75,8 @@ body {
 
 @media (min-width: 600px) {
     body {
-        padding: 20px;
-        padding: 20px;
+        /* padding: 20px;
+        padding: 20px; */
     }
 }
 
@@ -145,7 +145,7 @@ button {
     transition-duration: 300ms;
     outline: none;
     animation: fadein 1.5s;
-    user-select: none;
+    user-select: none; 
   }
 
   button:hover {
