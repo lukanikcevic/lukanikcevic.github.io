@@ -38,7 +38,7 @@ Portfolio Temp
 
 @font-face {
     font-family: 'CircularStd-Light';
-    src: url(Fonts/Circular/circularstd-light.ttf)  format('truetype');
+    src: url(Fonts/Circular/CircularStd-Light.ttf)  format('truetype');
     font-weight: normal;
 }
 
@@ -53,7 +53,7 @@ Portfolio Temp
   }
 
   p {
-    font-family: 'CircularStd-Book';
+    font-family: 'CircularStd-Light';
     text-align: left;
     font-size: 18px;
     color: #4C4C4B;
