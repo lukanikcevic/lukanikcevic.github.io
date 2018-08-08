@@ -36,10 +36,15 @@ Portfolio Temp
     font-weight: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'CircularStd-Light';
     src: url(Fonts/Circular/circularstd-light.ttf)  format('truetype');
     font-weight: normal;
+} */
+
+@font-face {
+  font-family: 'CircularStd-Light';
+  src: url('Fonts/Circular/circularstd-light.ttf') format('truetype'), url('Fonts/Circular/circularstd-light.ttf') format('truetype');
 }
 
   h1 {
