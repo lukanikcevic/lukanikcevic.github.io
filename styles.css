@@ -42,7 +42,7 @@ Portfolio Temp
     font-weight: normal;
 }
 
-  h1 {
+h1 {
     font-family: 'CircularStd-Bold';
     font-size: 32px;
     color: #4C4C4B;
@@ -50,9 +50,9 @@ Portfolio Temp
     padding-bottom: 14px;
     margin-bottom: 0px;
     margin-top: 0px;
-  }
+}
 
-  p {
+p {
     font-family: 'CircularStd-Light';
     text-align: left;
     font-size: 18px;
@@ -60,8 +60,7 @@ Portfolio Temp
     line-height: 1.5;
     margin-top: 0px;
     margin-bottom: 20px;
-  }
-
+}
 
 a {
     font-family: 'CircularStd-Book';
@@ -102,15 +101,17 @@ body {
     /* overflow-x: hidden; */
 }
 
-wrapper{
+wrapper {
     left:46px;
     position: absolute;
     max-width: 310px;
+    z-index: 2;
     padding-right: 46px;
     display: block;
     /* background-color: red; */
     animation: fadein 1.5s;
 }
+
 @media (min-width: 600px) {
     wrapper {    
         left: 10%;
